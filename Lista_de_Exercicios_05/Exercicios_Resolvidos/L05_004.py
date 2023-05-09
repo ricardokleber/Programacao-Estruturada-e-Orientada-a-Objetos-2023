@@ -1,5 +1,5 @@
 string_consulta = input("Digite uma string: ")
-string_consulta = string_consulta.upper()
+string_consulta = string_consulta
 contador = 0
 condition = False
 
