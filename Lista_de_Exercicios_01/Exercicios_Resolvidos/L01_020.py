@@ -1,0 +1,5 @@
+cat_oposto = float(input("Digite o valor do cateto OPOSTO: "))
+cat_adjacente = float(input("Digite o valor do cateto ADJACENTE: "))
+soma_catetos = (cat_adjacente**2) + (cat_oposto**2)
+raiz_hipotenusa = soma_catetos**(1/2)
+print("O valor da hipotenusa é:",raiz_hipotenusa)
