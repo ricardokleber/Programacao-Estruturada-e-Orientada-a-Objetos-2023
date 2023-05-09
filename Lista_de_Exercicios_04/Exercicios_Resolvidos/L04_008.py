@@ -1,0 +1,6 @@
+nome = list(input("Primeiro nome: "))
+sobrenome = list(input("Sobrenome: "))
+print(type(nome))
+print(f"Número de letras do nome: {len(nome)}")
+print(f"Número de letras do sobrenome: {len(sobrenome)}")
+print(f"Seu nome completo é: {nome+sobrenome}")
