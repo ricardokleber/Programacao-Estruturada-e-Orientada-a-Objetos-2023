@@ -1,0 +1,6 @@
+nota_1 = float(input("Digite o valor da sua PRIMEIRA nota: "))
+nota_2 = float(input("Digite o valor da sua SEGUNDA nota: "))
+nota_3 = float(input("Digite o valor da sua TERCEIRA nota: "))
+nota_4 = float(input("Digite o valor da sua QUARTA nota: "))
+media = ((nota_1*2 + nota_2*2 + nota_3*3 + nota_4*3)/10)
+print("A Média Final é:",media)
