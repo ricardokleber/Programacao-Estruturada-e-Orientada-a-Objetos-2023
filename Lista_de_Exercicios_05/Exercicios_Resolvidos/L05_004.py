@@ -1,7 +1,6 @@
 string_consulta = input("Digite uma string: ")
 string_consulta = string_consulta
 contador = 0
-condition = False
 
 for caracter in string_consulta:
     for caracter_teste in string_consulta:
